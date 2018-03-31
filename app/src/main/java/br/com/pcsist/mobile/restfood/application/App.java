@@ -6,10 +6,6 @@ import com.google.gson.Gson;
 
 import br.com.pcsist.mobile.restfood.business.api.ApiManager;
 
-/**
- * Created by bruno.andrade on 07/02/2017.
- */
-
 public class App extends Application {
 
     private static ApiManager apiManager;

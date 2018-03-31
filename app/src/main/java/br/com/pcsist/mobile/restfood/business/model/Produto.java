@@ -3,10 +3,6 @@ package br.com.pcsist.mobile.restfood.business.model;
 import java.text.Format;
 import java.util.Formatter;
 
-/**
- * Created by bruno.andrade on 07/02/2017.
- */
-
 public class Produto {
 
     private String codigo;

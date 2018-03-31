@@ -3,7 +3,7 @@ package br.com.pcsist.mobile.restfood.presenter.pedido;
 import br.com.pcsist.mobile.restfood.business.model.Response;
 
 /**
- * Created by bruno.andrade on 07/02/2017.
+ * Created by bruno.fernandes on 07/02/2017.
  */
 public interface IniciarPedidoCallback {
 

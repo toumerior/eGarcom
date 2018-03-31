@@ -1,5 +1,7 @@
 package br.com.pcsist.mobile.restfood.presenter;
 
+import android.util.Log;
+
 import java.util.List;
 
 import br.com.pcsist.mobile.restfood.business.model.Produto;
@@ -14,10 +16,6 @@ import br.com.pcsist.mobile.restfood.presenter.pedido.ListarPedidoCallback;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
-
-/**
- * Created by bruno.andrade on 07/02/2017.
- */
 
 public class ProductPresenter extends Presenter {
 
@@ -35,6 +33,7 @@ public class ProductPresenter extends Presenter {
 
                     @Override
                     public void onError(Throwable e) {
+                        Log.d("1", "Erro inicio", e);
                         callback.onIniciarPedidoError(e.getMessage());
                     }
 

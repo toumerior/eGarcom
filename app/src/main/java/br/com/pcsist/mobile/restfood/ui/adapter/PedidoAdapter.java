@@ -15,9 +15,6 @@ import java.util.List;
 import br.com.pcsist.mobile.restfood.R;
 import br.com.pcsist.mobile.restfood.business.model.Produto;
 
-/**
- * Created by bruno.andrade on 08/02/2017.
- */
 public class PedidoAdapter extends RecyclerView.Adapter<PedidoAdapter.MyViewHolder> {
 
     List<Produto> produtos;

@@ -3,7 +3,7 @@ package br.com.pcsist.mobile.restfood.business.model;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by bruno.andrade on 07/02/2017.
+ * Created by bruno.fernandes on 07/02/2017.
  */
 
 public class Response {

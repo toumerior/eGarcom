@@ -6,17 +6,14 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by bruno.andrade on 07/10/2016.
- */
-
 public class ApiManager {
 
     private static Retrofit retrofit;
 
     public Retrofit getInstance() {
 
-        String baseUrl = "http://10.62.15.41:8888/";
+        //String baseUrl = "http://192.168.0.116:8080/";
+        String baseUrl = "http://varejo.pcinformatica.com.br/";
 
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);

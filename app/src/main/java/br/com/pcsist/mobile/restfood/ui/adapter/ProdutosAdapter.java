@@ -20,7 +20,7 @@ import br.com.pcsist.mobile.restfood.business.model.Produto;
 import br.com.pcsist.mobile.restfood.ui.CardapioActivity;
 
 /**
- * Created by bruno.andrade on 07/02/2017.
+ * Created by bruno.fernandes on 07/02/2017.
  */
 public class ProdutosAdapter extends RecyclerView.Adapter<ProdutosAdapter.MyViewHolder> {
 
